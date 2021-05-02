@@ -6,4 +6,5 @@ echo -e 'To set password just run "passwd root" command'
 echo -e 'Go to your VPS credentials or "identities" if you are using juicessh'          
 echo -e 'Set your username to "root" then input your password"'
 systemctl restart ssh
+rm -f root.sh
 exit 1
